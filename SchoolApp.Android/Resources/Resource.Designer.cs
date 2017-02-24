@@ -41,6 +41,22 @@ namespace SchoolApp.Android
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int theme_devicedefault_background = 2131034112;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -60,26 +76,59 @@ namespace SchoolApp.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050006
-			public const int btnSubmit = 2131034118;
+			// aapt resource value: 0x7f07000f
+			public const int btnCancel = 2131165199;
 			
-			// aapt resource value: 0x7f050002
-			public const int lblEmail = 2131034114;
+			// aapt resource value: 0x7f07000e
+			public const int btnSubmit = 2131165198;
 			
-			// aapt resource value: 0x7f050000
-			public const int lblName = 2131034112;
+			// aapt resource value: 0x7f070011
+			public const int details_email = 2131165201;
 			
-			// aapt resource value: 0x7f050004
-			public const int lblPhone = 2131034116;
+			// aapt resource value: 0x7f070010
+			public const int details_name = 2131165200;
 			
-			// aapt resource value: 0x7f050003
-			public const int txtEmail = 2131034115;
+			// aapt resource value: 0x7f07000c
+			public const int lblConfirmPassword = 2131165196;
 			
-			// aapt resource value: 0x7f050001
-			public const int txtName = 2131034113;
+			// aapt resource value: 0x7f070006
+			public const int lblDateOfBirth = 2131165190;
 			
-			// aapt resource value: 0x7f050005
-			public const int txtPhone = 2131034117;
+			// aapt resource value: 0x7f070002
+			public const int lblEmail = 2131165186;
+			
+			// aapt resource value: 0x7f070008
+			public const int lblHomeAddress = 2131165192;
+			
+			// aapt resource value: 0x7f070000
+			public const int lblName = 2131165184;
+			
+			// aapt resource value: 0x7f07000a
+			public const int lblPassword = 2131165194;
+			
+			// aapt resource value: 0x7f070004
+			public const int lblPhone = 2131165188;
+			
+			// aapt resource value: 0x7f07000d
+			public const int txtConfirmPasswird = 2131165197;
+			
+			// aapt resource value: 0x7f070007
+			public const int txtDateOfBirth = 2131165191;
+			
+			// aapt resource value: 0x7f070003
+			public const int txtEmail = 2131165187;
+			
+			// aapt resource value: 0x7f070009
+			public const int txtHomeAddress = 2131165193;
+			
+			// aapt resource value: 0x7f070001
+			public const int txtName = 2131165185;
+			
+			// aapt resource value: 0x7f07000b
+			public const int txtPassword = 2131165195;
+			
+			// aapt resource value: 0x7f070005
+			public const int txtPhone = 2131165189;
 			
 			static Id()
 			{
@@ -96,6 +145,9 @@ namespace SchoolApp.Android
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int ViewDetails = 2130903041;
 			
 			static Layout()
 			{
@@ -122,6 +174,22 @@ namespace SchoolApp.Android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Custom = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
